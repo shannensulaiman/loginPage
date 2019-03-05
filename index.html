@@ -8,11 +8,12 @@
 <body>
 
     <div class="wrapper">
-
-        <div class="panelWrapper">
-           <div class="leftPanel">
+        
+        <div class="panel-wrapper">
+           <div class="left-panel">
+               <img src="campaignmonitor.png" width="200px" height="70px">
            </div>
-            <div class="middlePanel">
+            <div class="middle-panel">
                 <ul>
                     <li><a href="#">Features</a></li>
                     <li><a href="#">Pricing</a></li>
@@ -24,11 +25,11 @@
                 </ul>
             </div>
 
-            <div class="rightPanel">
+            <div class="right-panel">
                 <ul>
                     <li><a href="#">Contact Us</a></li>
                     <li><a href="#">Login</a></li>
-                    <li><button id="signupBtn">Sign Up</button></a></li>
+                    <li><button id="signup-btn">Sign Up</button></a></li>
                 </ul>
 
             </div>
@@ -39,19 +40,26 @@
         <div class="container1">
             <div class="form">
             <form>
-                Email <br>
+
+              
+                <div id="email">
+                <h4 id="label"> Email</h4><br>
                 <input type="email" placeholder="Input email" name="email" id="input"><br><br>
-                Password <br>
+                </div>
+                <div id="password">
+                <h4 id="label"> Password </h4><br>
                 <input type="password" placeholder="Input password" name="password" id="input">
+                </div>
+    
                 <br><br>
-                <button id="loginBtn"> Login</button><br>
+                <button id="login-btn"> LOGIN </button><br>
             </div>
-                <a href="#" id="forgotPass">can't remember your password? </a>
+                <a href="#" id="forgot-pass">can't remember your password? </a>
             </form>
 
         </div>
         <br>
-        <div class="freeAccount">
+        <div class="free-account">
             <div class="content">
                 <h1>
                     CREATE A FREE ACCOUNT

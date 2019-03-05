@@ -1,5 +1,5 @@
 body{
-background-color: lightgrey;
+background-color: #F8F8FF;
 margin: 0;
 font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 box-sizing: border-box;
@@ -11,29 +11,30 @@ text-align:center;
 }
 
 #login{
-    margin-top: 30px;
-    margin-bottom: 10px;
+    margin-top: 55px;
+    margin-bottom: 20px;
 
 }
 
 .container1{
     display: inline-block;
-    width: 200px;
-    height: 170px;
+    width: 350px;
+    height: 290px;
     background-color: white;
     border: 1px solid darkgray;
     padding: 15px;
     margin: 40px;
     justify-items: center;
     margin-top: 0;
+    box-shadow: 2px 2px darkgray;
 }
 
 #input{
     width: 100%;
 }
 
-#loginBtn {
-  background-color: green;
+#login-btn {
+  background-color: #A3CB38;
   border: none;
   color: white;
   padding: 5px 7px;
@@ -43,21 +44,24 @@ text-align:center;
   font-size: 13px;
   width: 100%;
   border-radius: 4px;
+  height: 50px;
+  
 }
 
 
 
-#forgotPass{
+#forgot-pass{
 font-size: 10px;
 text-decoration: none;
 color: black;
 margin: 10px;
+padding: 10px;
 }
 
-.freeAccount{
+.free-account{
 
-    background-color: lightgrey;
-    width: 200px;
+    background-color: #F8F8FF;
+    width: 350px;
     height: 100px;
     display: inline-block;
     margin-top: 20px;
@@ -65,6 +69,7 @@ margin: 10px;
     margin: 40px;
     padding: 15px;
     position: relative;
+    box-shadow: 2px 2px darkgray;
 
 }
 
@@ -79,54 +84,54 @@ margin: 10px;
     transform: translate(-50%, -50%);
 }
 
-.freeAccount h1{
+.free-account h1{
 
     color: #3C49A9;
     font-size: 15px;
 }
 
-.freeAccount p{
+.free-account p{
 
     font-size: 10px;
 }
 
-.leftPanel{
+.left-panel{
 display: table-cell;
 height: 100%;
 width: 20%;
-background-image: url("campaignmonitor.png");
-background-size: 100% 70px;
-background-repeat: no-repeat;
-background-position: center;
 margin: 0 auto;
-
+position: relative;
+top: 50%;
+transform: translateY(30%);
 }
-.middlePanel{
+
+
+.middle-panel{
     width: 50%;
     height: 100%;
     display: table-cell;
 
 }
-.middlePanel a:hover{
+.middle-panel a:hover{
     color: white;
 }
 
-.middlePanel a{
+.middle-panel a{
     text-decoration: none;
     color: black;
 }
 
-.middlePanel ul{
+.middle-panel ul{
     list-style: none;
     
 }
 
-.middlePanel li{
+.middle-panel li{
     margin: 15px;
     display: inline-block;
     
 }
-#signupBtn{
+#signup-btn{
     background-color: darkgray;
     border: 1px bold black;
     color: white;
@@ -137,35 +142,63 @@ margin: 0 auto;
     font-size: 12px;
     width: 100%;
     border-radius: 4px;
-
+    
 }
 
-.rightPanel{
+.right-panel{
     display: table-cell;
     list-style: none;
     height: 100%;
     width: 30%;
 }
 
-.rightPanel a{
+.right-panel a{
     text-decoration: none;
     color: black;
 }
 
-.rightPanel a:hover{
+.right-panel a:hover{
     color: white;
 }
 
-.rightPanel li{
+.right-panel li{
     display: inline-block;
     margin: 15px;
 }
 
 
-.panelWrapper{
-    background-color: darkgrey;
+.panel-wrapper{
+    background-color: #F8F8FF;
     width: 100%;
-    height: 50px;
+    height: 90px;
+    
 
 }
 
+#email{
+    display: inline-block;
+    width: 100%;
+    text-align: left;
+
+}
+
+#password{
+    display: inline-block;
+    width: 100%;
+    text-align: left;
+}
+
+.form{
+    margin: 15px;
+}
+
+#label{
+
+    margin: 0;
+}
+
+#input{
+    margin: 0;
+    padding: 0;
+    height: 40px;
+}
