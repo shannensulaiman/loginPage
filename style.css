@@ -29,10 +29,6 @@ text-align:center;
     box-shadow: 2px 2px darkgray;
 }
 
-#input{
-    width: 100%;
-}
-
 #login-btn {
   background-color: #A3CB38;
   border: none;
@@ -197,8 +193,19 @@ transform: translateY(30%);
     margin: 0;
 }
 
-#input{
+.input{
+    width: 100%;
     margin: 0;
     padding: 0;
     height: 40px;
 }
+
+.login-success-wrapper{
+    background-color: #F8F8FF;
+}
+.success-text{
+    font-size: 20px;
+    text-align: center;
+    margin: 100px;
+}
+
